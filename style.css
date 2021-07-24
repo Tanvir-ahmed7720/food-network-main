@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.box-shadow{
+    box-shadow: 0px 0px 25px #8080804f;
+}
+.dimgray-color{
+    color: dimgray;
+}
+
+.anchor-button{
+    padding: 15px 25px;
+    background-image: linear-gradient(to right, #ffa2b1, #f13150);
+    color: white;
+    border-radius: 25px;
+}
+/* Home Start */
+/* Top Navbar start */
+nav{
+    width: 90%; 
+    background-color: rgba(236, 45, 71, .05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    float: left;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.logo span{
+    color: #f13150;
+    font-size: 20px;
+}
+/* Top Navbar End */
+.home, .about-me{
+    display: flex;
+}
+.home-left, .home-right{
+    width: 40%;
+    margin: auto auto;
+}
+.home-right img{
+    width: 100%;
+}
+
+.home h1{
+    font-size: 45px;
+}
+.home p{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.pink-color{
+    color: #f0304e;
+}
+/* Home End */
+
+/* About Start */
+.about-me{
+    width: 100%;
+    background-image: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.about-left, .about-right{
+    width: 45%;
+    margin: 0 auto;
+}
+.about-left img{
+    width: 100%;
+}
+.about-me h1{
+    font-size: 30px;
+}
+.about-me p{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+/* About End */
+
+/* Recipe Start */
+.recipes-area{
+    width: 90%;
+    padding: 0 5%;
+}
+.recipes-area h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: dimgray;
+    font-size: 30px;
+    text-align: center;
+}
+.recipes-area p{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: dimgray;
+    text-align: center;
+}
+.recipe-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.recipe-item-content{
+    width: 25%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+.recipe-item-content h2, .recipe-item-content p{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recipe-item-content p{
+    margin: 0px;
+    width: 100%;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.recipe-item-content img{
+    width: 100%;
+}
+/* Recipe End */
+
+/* Stat Start */
+.stat-area{
+    width: 90%;
+    padding: 0 5%;
+}
+.stat{
+    display: flex;
+    padding: 60px 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.stat-content{
+    margin: 0 auto;
+}
+.stat-content h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.stat-content p{
+    color: black;
+}
+/* Stat End */
+
+/* Contact Start */
+.contact{
+    width: 100%;
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+}
+.contact-info h2, .contact-info p{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-info i{
+    color: #f13150;
+    padding-right: 10px;
+}
+.contact-info img{
+    width: 80px;
+    padding-bottom: 20px;
+}
+.recent-recipe h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.recent-item{
+    display: flex;
+    padding-bottom: 20px;
+}
+.recent-item img{
+    width: 100px;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+.recent-item-info{
+    color: white;
+}
+.recent-item-info h4{
+    padding-bottom: 12px;
+}
+.recent-item-info i{
+    color: #f13150;
+    padding-right: 20px;
+}
+.subscribe h2, .subscribe p{
+    padding-bottom: 15px;
+}
+.subscribe input{
+    width: 200px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    margin-bottom: 50px;
+}
+/* Contact End */
+
+/* Footer start */
+footer{
+    background-color: #1e232a;
+    padding: 50px 20px;
+}
+footer h1, footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.copyright{
+    color: gray;
+    font-size: 14px;
+    padding-top: 20px;
+}
+/* Footer End*/
